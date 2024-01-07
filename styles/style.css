@@ -1,0 +1,105 @@
+.header-container{
+    background-image: url("../images/Banner\ Image.png");
+    width: 1320px;
+    height: 600px;
+    margin: 50px 165px;
+    /* opacity: 10; */
+}
+.header-container h4{
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+    position:absolute;
+    margin: 170px 530px;
+}
+.header-container h3{
+    width: 600px;
+    color: #fbeaea;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px; 
+    position: absolute;
+    margin: 220px 350px;
+}
+.offer{
+    text-align: center;
+    margin-top: 120px;
+}
+.offer-percent{
+    color: #F00;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.holiday-deal{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 45px;
+    margin-bottom: 0;
+}
+.catagoti{
+    color: #070211;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 15px;
+}
+.offer{
+    margin-top: 45px;
+}
+.section-container{
+    width: 100%;
+    margin: 120px 175px;
+}
+.victory{
+    width: 1320px;
+    height: 600px;
+    background-image: url("../images/Vectorrr.png");
+    display: flex;
+    /* gap: 50px; */
+}
+.victory-details{
+    width: 50%;
+    margin-left: 120px;
+}
+.victory-title{
+    width: 640px;
+    margin: 125px 0 0 0;
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px; /* 137.5% */
+    letter-spacing: 7.04px;
+}
+.victory-description{
+    width: 600px;
+    margin: 20px 0 0 0;
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.join{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    border: 0;
+    background: 0;
+    margin-top: 45px;
+}
+.new-year{
+    margin: 65px;
+}
