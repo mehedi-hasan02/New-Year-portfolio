@@ -1,9 +1,14 @@
+*{
+    box-sizing: border-box;
+}
 .header-container{
-    background-image: url("../images/Banner\ Image.png");
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%) , url("../images/Banner\ Image.png");
+    /* background-image: url("../images/Banner\ Image.png"); */
     width: 1320px;
     height: 600px;
     margin: 50px 165px;
-    /* opacity: 10; */
+    border-radius: 16px;
+
 }
 .header-container h4{
     color: #FFF;
@@ -61,9 +66,10 @@
 .victory{
     width: 1320px;
     height: 600px;
-    background-image: url("../images/Vectorrr.png");
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../images/Vectorrr.png");
+    /* background-image: url("../images/Vectorrr.png"); */
     display: flex;
-    /* gap: 50px; */
+    border-radius: 16px;
 }
 .victory-details{
     width: 50%;
@@ -102,4 +108,37 @@
 }
 .new-year{
     margin: 65px;
+}
+.hotel{
+    width: 1320px;
+    height: 482px;
+    text-align: center;
+    margin: 120px 175px;
+    border-radius: 8px;
+    background:linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);;
+}
+.hotel-details span{
+    color: #F00;
+}
+.hotel-details{
+    padding-top: 80px;
+}
+.hotel-details{
+    color: #070211;
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    /* line-height: 56px; */
+    text-transform: capitalize;
+}
+.join-now{
+    padding: 13px 30px;
+    border-radius: 8px;
+    background: #F00;
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    border: 0;
 }
