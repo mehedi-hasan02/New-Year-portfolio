@@ -1,5 +1,7 @@
 *{
     box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather Sans', sans-serif;
 }
 .header-container{
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%) , url("../images/Banner\ Image.png");
@@ -141,4 +143,37 @@
     font-size: 20px;
     font-weight: 700;
     border: 0;
+}
+.upcoming-offer{
+    width: 1320px;
+    height: 480px;
+    display: flex;
+    justify-content: space-between;
+    margin: 120px 170px;
+}
+.offer-details{
+    width: 390px;
+    text-align: left;
+    margin-top: 70px;
+}
+.offer-title{
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.circle{
+    display: flex;
+    width: 400px;
+    height: 400px;
+    border-radius: 463px;
+    border: 15px solid #F00;
+    justify-content: center;
+}
+.circle-image{
+    padding: 40px;
+    
 }
