@@ -275,7 +275,13 @@
 .product{
     width: 320px;
     height: 350px;
+    transition: .3s;
 }
+.product:hover {
+    border: 2px solid rgb(15, 15, 26);
+    box-shadow: 0 5px 10px rgba(164, 128, 234, 0.5);
+}
+
 .best-gift{
     color: #F00;
     font-family: 'Inter', sans-serif;
