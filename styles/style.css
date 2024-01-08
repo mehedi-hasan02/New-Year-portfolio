@@ -161,9 +161,7 @@
     color: #F00;
     font-family: 'Inter', sans-serif;
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
-    line-height: normal;
     margin-bottom: 0;
 }
 .coming-soon{
@@ -178,7 +176,6 @@
     color: rgba(7, 2, 17, 0.60);
     font-family: 'Inter', sans-serif;
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
     line-height: 20px;
     margin-top: 20px;
@@ -200,7 +197,7 @@
 }
 .year{
     color: #F00;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 40px;
     font-weight: 700;
     margin-bottom: 0;
@@ -208,9 +205,8 @@
 .year-description{
     width: 275px;
     color: rgba(7, 2, 17, 0.60);
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
     line-height: 23px; /* 160% */
     margin-bottom: 0;
@@ -219,4 +215,49 @@
     width: 140px;
     height: 140px;
     margin-top: 10px;
+}
+.holyday-container{
+    width: 1320px;
+    height: 900px;
+    text-align: center;
+    justify-content: center;
+    background: #FFF;
+    margin: 120px 175px;
+    background-image: url("../images/Rectangle\ 2.png"),url("../images/Rectangle\ 1.png");
+    background-repeat: no-repeat;
+    background-position: bottom, right bottom+225px;
+}
+.holyday span{
+    display: inline-block;
+    color: #F00;
+}
+.holyday-func{
+    color: #070211;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+.holyday h3{
+    color: #070211;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 60px;
+    font-weight: 900;
+    margin: 0;
+}
+.holyday-description{
+    width: 700px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 32px;
+    margin: 20px 300px;
+}
+.discount-perc{
+    margin: 100px 50px 150px 520px;
+}
+.gift-box{
+    position: absolute;
+    left: 200px;
 }
